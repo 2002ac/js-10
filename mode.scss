@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    .newDivClass {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 300px;
+
+        .newDiv1Class {
+            width: 250px;
+            height: 45px;
+            font-size: 40px;
+            color: blue;
+        }
+
+        .menyuDivClass {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+
+            .homeDivClass {
+                font-size: 20px;
+            }
+
+            .resumeDivClass {
+                font-size: 20px;
+            }
+
+            .projectsDivClass {
+                font-size: 20px;
+            }
+
+            .contactDivClass {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .sectionDivClass {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        .textDivClass {
+           width: 60%;
+           height: 300px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           gap: 30px;
+
+           .text1DivClass {
+            width: 350px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            border-color: black;
+            border-width: 1px;
+            border-style: solid;
+            background-color: blue;
+            color: white;
+           }
+
+           .text2DivClass {
+            font-size: 30px;
+           }
+
+           .text3DivClass {
+            font-size: 55px;
+            color: blue;
+           }
+           .text4DivClass {
+            display: flex;
+            gap: 20px;
+
+            .button1 {
+                width: 150px;
+                height: 40px;
+                font-size: 25px;
+                background-color: blue;
+                border-radius: 7px;
+                color: white;
+            }
+            .button2 {
+                width: 150px;
+                height: 40px;
+                font-size: 25px;
+                border-radius: 7px;
+                color: black;
+            }
+           }
+        }
+
+        .imgDivClass {
+           width: 320px;
+           height: 440px;
+           background-image: url(https://img.freepik.com/premium-photo/handsome-manager-portrait-white-background_53419-2824.jpg);
+           background-size: 100% 100%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           gap: 30px;
+        }
+    }
+
+    .section1Div {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+
+        .about {
+            color: blue;
+            font-size: 40px;
+        }
+
+        .my {
+            color: rgb(36, 34, 34);
+            font-size: 16px;
+        }
+
+        .lorem {
+            color: rgb(75, 73, 73);
+        }
+
+        .icons {
+
+
+            .bi {
+                margin-right: 30px;
+                text-align: center;
+                font-size: 30px;
+                background: linear-gradient(to right, blue, red);
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+    }
+}
